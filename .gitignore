@@ -1,1 +1,2 @@
 .vscode/*
+flask_blog/__pycache__/*
