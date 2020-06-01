@@ -1,2 +1,7 @@
 .vscode/*
+
+*.pyc
 flask_blog/__pycache__/*
+flask_blog/scripts/__pycache__/*
+
+flask_blog/flask.blog.db
