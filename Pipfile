@@ -8,6 +8,8 @@ pylint = "*"
 
 [packages]
 flask = "*"
+flask-sqlalchemy = "*"
+flask-script = "*"
 
 [requires]
 python_version = "3.7"
