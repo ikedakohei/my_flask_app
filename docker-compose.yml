@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flask:
+    build: .
+    command: python server.py
+    volumes:
+      - type: bind
+        source: .
+        target: /my_flask_app
+    ports:
+      - "5000:5000"
